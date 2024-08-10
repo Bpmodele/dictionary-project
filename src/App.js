@@ -13,7 +13,19 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Madali</small>
+          <small>
+            This project was coded by Madali Navas and is open-sourced on{" "}
+            <a
+              href="https://github.com/Bpmodele/dictionary-project"
+              target="_blank"
+            >
+              GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a href="https://rad-entremet-42e384.netlify.app/" target="_blank">
+              Netlify
+            </a>{" "}
+          </small>
         </footer>
       </div>
     </div>
